@@ -112,6 +112,9 @@ section h3{
   color: #F08080;
   font-size: 25px;
 }
+h4{
+  color:#F08080;
+}
 section p{
   font-family: Andale Mono, monospace;
   font-size: 20px;
@@ -173,7 +176,7 @@ section p{
 }
 
 form {
-  background-color: #FFC0CB;
+  background-color: #ffc0cb;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -255,3 +258,38 @@ input[type="submit"]:hover {
   color: #FFFFFF; /* Couleur blanche pour les icônes */
   vertical-align: middle;
 }
+.experience {
+  display: flex; /* Affichage en ligne */
+  animation: slide-up 0.5s ease-out;
+}
+
+.experience-block {
+  background-color: #ffc0cb; /* Couleur de fond jaune */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Ombre */
+  padding: 20px; /* Espacement interne */
+  margin: 10px; /* Marge entre les blocs d'expérience */
+  flex: 1;
+  border-radius: 10px; /* Les div "Expérience" s'adaptent à la largeur du conteneur */
+  display: flex;
+  flex-direction: column ; /* Permet d'aligner l'icône et le texte horizontalement */
+  align-items: center; /* Centre l'icône et le texte verticalement */
+}
+.experience-block p {
+  text-align: center; /* Centre le texte horizontalement */
+}
+.experience-block h3 {
+  margin-bottom: 10px; /* Espacement entre le titre et le texte */
+}
+.experience-icon {
+  margin-right: 10px; /* Espace entre l'icône et le texte */
+  font-size: 24px; /* Taille de l'icône */
+  color: #FFFFFF;
+}
+.hidden {
+  display: none;
+}
+
+
+
+
+
